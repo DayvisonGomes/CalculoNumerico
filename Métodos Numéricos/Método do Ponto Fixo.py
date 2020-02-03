@@ -3,7 +3,6 @@ import numpy as np
 from numpy import *
 from sympy import *
 
-
 def PF(x0,epsilon,delta,phi,f):
     iterM = 200
 
@@ -20,7 +19,7 @@ def PF(x0,epsilon,delta,phi,f):
 
 def phi(x):
     return np.exp(-1*0.5 * x) * (4 - x) - 2 + x
-    ##-2/(np.exp(-0.5*x )) + 4
+    
 def f(x):
     return np.exp(-1*0.5 * x) * (4 - x) - 2
 
