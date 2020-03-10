@@ -1,8 +1,4 @@
-import math
-import numpy as np
-from numpy import *
-from sympy import *
-import matplotlib.pyplot as mp
+Import numpy as np
 
 
 def Bissec(a0,b0,epsilon,f):
