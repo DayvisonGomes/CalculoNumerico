@@ -1,7 +1,4 @@
-import math
 import numpy as np
-from numpy import *
-from sympy import *
 
 def Sec(f,x0,x1,epsilon,delta):
     k = 0
@@ -30,10 +27,6 @@ def Sec(f,x0,x1,epsilon,delta):
 def f(x):
     return 0.0074*x**4 - 0.284*x**3 + 3.355*x**2 - 12.183*x + 5
 
-def flin(x):
-    return  4*0.0074*x**3 - 3*0.284*x**2 + 2*3.355*x - 12.183
-
-
-raiz = Sec(f,flin,10,11,0.0001,0.0001)
+raiz = Sec(f,10,11,0.0001,0.0001)
 
 print("\nRaiz = %f"%raiz)

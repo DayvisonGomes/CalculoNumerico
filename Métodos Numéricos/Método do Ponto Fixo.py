@@ -1,7 +1,4 @@
-import math
 import numpy as np
-from numpy import *
-from sympy import *
 
 def PF(x0,epsilon,delta,phi,f):
     iterM = 200

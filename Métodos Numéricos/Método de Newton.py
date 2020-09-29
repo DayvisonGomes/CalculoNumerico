@@ -1,7 +1,4 @@
-import math
 import numpy as np
-from numpy import *
-from sympy import *
 
 def Newton(f,flin,x0,epsilon,delta):
     k = 0

@@ -1,7 +1,4 @@
-import math
 import numpy as np
-from numpy import *
-from sympy import *
 
 def FP(a0,b0,epsilon,f):
     iterM = 100

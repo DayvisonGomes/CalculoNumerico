@@ -1,5 +1,4 @@
-Import numpy as np
-
+import numpy as np
 
 def Bissec(a0,b0,epsilon,f):
     iterM = 20
